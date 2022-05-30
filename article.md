@@ -1,6 +1,16 @@
-# How to upgrade your PyTorch model to run on AWS Sagemaker
-
-## Intro
+---
+title: "How to upgrade your PyTorch model to run on AWS Sagemaker"
+thumbnail: ./logo-1.png
+thumbnail_alt: "Machine Learning "
+authors: ["Aydin Utting"]
+date: 2022-05-30
+categories:
+  ["Tech", "Machine Learning", "Python", "Pytorch", "AWS", "AWS Sagemaker"]
+slug: upgrade-pytorch-for-aws-sagemaker
+meta_title: "How to upgrade your PyTorch model to run on AWS Sagemaker"
+seo_description: "Upgrade your PyTorch model to run on AWS Sagemaker. How to add distributed training to Pytorch mode. How to make run a Pytorch machine learning model on AWS sagemaker."
+seo_keywords: "pytorch machine learning ml aws sagemaker distributed machine learning"
+---
 
 AWS Sagemaker makes it easy to train and deploy a machine learning model in the cloud. Sagemaker is an AWS service built on top of the Elastic Container Service (ECS) and S3. When you provide your training script and dataset, Sagemaker uploads them to S3, trains your model, and saves your trained model to S3 to be downloaded or deployed directly using Sagemaker Endpoints.
 
