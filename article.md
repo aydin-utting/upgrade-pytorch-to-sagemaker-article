@@ -10,6 +10,8 @@ In this article, we’ll quickly go through the steps to upgrade your normal PyT
 
 ## Upgrade your training script
 
+<script src="https://gist.github.com/aydin-utting/086020685294ad7dfd3137421fa493d7.js"></script>
+
 To start with we’ve got our normal PyTorch training file, with a model and a training function that saves the model at the end. We could run this in a notebook, or an iPython terminal. We can make only a few changes to make this script run on AWS.
 
 Firstly, our train function needs to be run within the top-level code environment. We do this by putting the code within a `if __name__ == ‘__main__’` block. When we run the python file from the terminal, the variable `__name__` gets set to `”__main__”`. This means that we can run
